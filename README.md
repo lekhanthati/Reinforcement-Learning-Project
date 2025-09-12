@@ -15,7 +15,7 @@ behaviors and outcomes.
 ├── Data_prep.py       # Data Pre-processing 
 ├── DL_model.py        # Deep Learning Model 
 ├── RL_model.py        # Reinforcement Learning Model
-├── requirements.txt   # Dependencies          
+├── Requirements.txt   # Dependencies          
 └── README.md         
 ```
 ## 🛠️ Tech Stack
@@ -28,4 +28,22 @@ behaviors and outcomes.
 | **tensorflow** | Deep learning model building    |
 | **d3rlpy**    | Offline reinforcement learning   |
 
+## 🔑 Environment Setup
 
+Before running the app, make sure to set up your environment:
+
+1. Create & activate a virtual environment:
+   ```bash
+   python -m venv venv
+   venv\Scripts\activate
+   ```
+
+2. Install dependencies:
+   ```bash
+   pip install -r Requirements.txt
+   ```
+
+3. Run the app:
+   ```bash
+   python main.py
+   ```
