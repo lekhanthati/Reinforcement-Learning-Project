@@ -23,7 +23,7 @@ def main():
     x_train = scaler.fit_transform(x_train)
     x_test = scaler.transform(x_test)
 
-    dl_metrics = dl_model(x_train, x_test, y_train, y_test)
+    dl_metrics = dl_model(x_train, y_train, x_test, y_test)
 
     # RL part
 
@@ -35,4 +35,5 @@ def main():
 
 if __name__ == '__main__':
     main()
+
 
