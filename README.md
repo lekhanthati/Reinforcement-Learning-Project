@@ -15,7 +15,8 @@ behaviors and outcomes.
 ├── Data_prep.py       # Data Pre-processing 
 ├── DL_model.py        # Deep Learning Model 
 ├── RL_model.py        # Reinforcement Learning Model
-├── Requirements.txt   # Dependencies          
+├── Requirements.txt   # Dependencies
+├── Final_Report.pdf   # Project summary        
 └── README.md         
 ```
 ## 🛠️ Tech Stack
