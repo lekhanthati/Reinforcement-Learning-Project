@@ -42,7 +42,7 @@ Before running the app, make sure to set up your environment:
    ```bash
    pip install -r Requirements.txt
    ```
-3. Place your dataset file accepted_2007_to_2018Q4.csv in the project root directory (same folder as main.py
+3. Place your dataset file accepted_2007_to_2018Q4.csv in the project root directory (same folder as main.py)
 4. Run the app:
    ```bash
    python main.py
